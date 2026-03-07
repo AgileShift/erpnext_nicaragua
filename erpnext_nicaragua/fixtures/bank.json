@@ -1,0 +1,46 @@
+[
+ {
+  "bank_name": "BANCO LAFISE BANCENTRO",
+  "bank_transaction_mapping": [],
+  "docstatus": 0,
+  "doctype": "Bank",
+  "modified": "2026-01-01 12:32:00.000000",
+  "name": "BANCO LAFISE BANCENTRO",
+  "plaid_access_token": null,
+  "swift_number": "BCCENIMA",
+  "website": "https://www.lafise.com/blb/"
+ },
+ {
+  "bank_name": "BANCO DE LA PRODUCCIÓN",
+  "bank_transaction_mapping": [],
+  "docstatus": 0,
+  "doctype": "Bank",
+  "modified": "2026-01-01 12:31:00.000000",
+  "name": "BANCO DE LA PRODUCCIÓN",
+  "plaid_access_token": null,
+  "swift_number": "BAPRNIMA",
+  "website": "https://www.banprogrupopromerica.com.ni/"
+ },
+ {
+  "bank_name": "BANCO FICOHSA NICARAGUA",
+  "bank_transaction_mapping": [],
+  "docstatus": 0,
+  "doctype": "Bank",
+  "modified": "2026-01-01 12:33:00.000000",
+  "name": "BANCO FICOHSA NICARAGUA",
+  "plaid_access_token": null,
+  "swift_number": "BUNONIMA",
+  "website": "https://www.ficohsa.ni/"
+ },
+ {
+  "bank_name": "BANCO DE AMERICA CENTRAL",
+  "bank_transaction_mapping": [],
+  "docstatus": 0,
+  "doctype": "Bank",
+  "modified": "2026-01-01 12:30:00.000000",
+  "name": "BANCO DE AMERICA CENTRAL",
+  "plaid_access_token": null,
+  "swift_number": "BAMCNIMA",
+  "website": "https://www.baccredomatic.com/es-ni"
+ }
+]
