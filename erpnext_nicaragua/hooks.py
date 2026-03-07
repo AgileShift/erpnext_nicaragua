@@ -40,7 +40,7 @@ app_license = "agpl-3.0"
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
+# page_js = {"page": "public/js/file.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
@@ -132,6 +132,10 @@ app_license = "agpl-3.0"
 # ---------------
 # Hook on document methods and events
 
+# standard_queries = {
+# 	"Doctype": "erpnext_nicaragua.module.doctype.doctype_name.file.standard_queries",
+# }
+
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",
@@ -165,6 +169,14 @@ app_license = "agpl-3.0"
 # -------
 
 # before_tests = "erpnext_nicaragua.install.before_tests"
+
+# DocType Class
+# ---------------
+# Override standard doctype classes
+
+# override_doctype_class = {
+#   "Doctype": "grupo_real_tools.overrides.CustomToDo"
+# }
 
 # Extend DocType Class
 # ------------------------------
@@ -239,14 +251,24 @@ app_license = "agpl-3.0"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
-# export_python_type_annotations = True
+export_python_type_annotations = True
+
+# Require all whitelisted methods to have type annotations
+require_type_annotated_api_methods = True
 
 # default_log_clearing_doctypes = {
-# 	"Logging DocType Name": 30  # days to retain logs
+# 	"Logging DocType Name": 30 # days to retain logs
 # }
 
 # Translation
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
-# ignore_translatable_strings_from = []
+ignore_translatable_strings_from = ["frappe", "erpnext", "hrms"]
 
+# Extend Bootinfo
+# extend_bootinfo = "grupo_real_tools.boot.boot_session"
+
+# Fixtures
+fixtures = [
+	"Bank"
+]

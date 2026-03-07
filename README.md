@@ -6,11 +6,10 @@ App to hold regional code for Nicaragua, built on top of ERPNext.
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch version-16
-bench install-app erpnext_nicaragua
-```
+### Features
+1. Nicaraguan Banks
+
+
 
 ### Contributing
 
