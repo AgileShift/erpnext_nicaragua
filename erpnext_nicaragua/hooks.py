@@ -28,14 +28,14 @@ app_license = "agpl-3.0"
 # app_include_css = "/assets/erpnext_nicaragua/css/erpnext_nicaragua.css"
 # app_include_js = "/assets/erpnext_nicaragua/js/erpnext_nicaragua.js"
 
-# include js, css files in header of web template
+# include js, CSS files in header of web template
 # web_include_css = "/assets/erpnext_nicaragua/css/erpnext_nicaragua.css"
 # web_include_js = "/assets/erpnext_nicaragua/js/erpnext_nicaragua.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "erpnext_nicaragua/public/scss/website"
 
-# include js, css files in header of web form
+# include js, CSS files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
@@ -63,6 +63,9 @@ app_license = "agpl-3.0"
 # role_home_page = {
 # 	"Role": "home_page"
 # }
+
+# Website user home page (by function)
+# get_website_user_home_page = "erpnext_nicaragua.utils.get_home_page"
 
 # Generators
 # ----------
@@ -175,7 +178,7 @@ app_license = "agpl-3.0"
 # Override standard doctype classes
 
 # override_doctype_class = {
-#   "Doctype": "grupo_real_tools.overrides.CustomToDo"
+#   "Doctype": "erpnext_nicaragua.overrides.CustomToDo"
 # }
 
 # Extend DocType Class
@@ -266,7 +269,10 @@ require_type_annotated_api_methods = True
 ignore_translatable_strings_from = ["frappe", "erpnext", "hrms"]
 
 # Extend Bootinfo
-# extend_bootinfo = "grupo_real_tools.boot.boot_session"
+# extend_bootinfo = "erpnext_nicaragua.boot.boot_session"
+
+# Doctypes for Global Search
+# global_search_doctypes = {}
 
 # Fixtures
 fixtures = [
