@@ -1,0 +1,11 @@
+[
+ {
+  "country": "Nicaragua",
+  "docstatus": 0,
+  "doctype": "Address Template",
+  "is_default": 1,
+  "modified": "2026-05-26 18:35:00.376768",
+  "name": "Nicaragua",
+  "template": "{% if city %}<strong>{{ city }}</strong>{% if state and state != city %}, {{ state }}{% endif %}<br>{% endif %}\n{% if county %}{{ county }}<br>{% endif %}\n{{ address_line1 }}\n{% if address_line2 %}<br>{{ address_line2 }}{% endif %}\n{% if phone %}<br>Tel: {{ phone }}{% endif %}"
+ }
+]
