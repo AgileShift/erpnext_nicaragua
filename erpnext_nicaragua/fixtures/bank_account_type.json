@@ -1,0 +1,23 @@
+[
+ {
+  "account_type": "Corriente",
+  "docstatus": 0,
+  "doctype": "Bank Account Type",
+  "modified": "2024-12-14 00:34:24.379982",
+  "name": "Corriente"
+ },
+ {
+  "account_type": "POS",
+  "docstatus": 0,
+  "doctype": "Bank Account Type",
+  "modified": "2024-12-14 00:34:27.695813",
+  "name": "POS"
+ },
+ {
+  "account_type": "Ahorro",
+  "docstatus": 0,
+  "doctype": "Bank Account Type",
+  "modified": "2021-12-18 15:06:22.315182",
+  "name": "Ahorro"
+ }
+]
