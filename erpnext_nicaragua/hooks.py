@@ -276,5 +276,10 @@ ignore_translatable_strings_from = ["frappe", "erpnext", "hrms"]
 
 # Fixtures
 fixtures = [
-	"Bank"
+	"Bank", "Bank Account Type",
+	{"dt": "Address Template", "filters": {"country": "Nicaragua"}},
+	# {"dt": "Territory", "filters": {
+	# 	"is_group": True,
+	# 	"parent_territory": ["is", "set"]
+	# }}
 ]
