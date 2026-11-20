@@ -4,6 +4,8 @@ App to hold regional code for Nicaragua, built on top of ERPNext.
 
 ### Installation
 
+Requires Frappe and ERPNext `>=16.60.0,<17.0.0`. See [pyproject.toml](pyproject.toml).
+
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ### Features
